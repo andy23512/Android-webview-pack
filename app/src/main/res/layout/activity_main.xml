@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0pt"
+    android:paddingLeft="0pt"
+    android:paddingRight="0pt"
+    android:paddingTop="0pt"
+    tools:context="me.andy23512.android_webview_pack.MainActivity"
+    android:background="#000000">
+    <WebView
+        android:id="@+id/wv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:filterTouchesWhenObscured="true"
+        android:scrollbars="none"
+        android:background="#000000"/>
+</RelativeLayout>
